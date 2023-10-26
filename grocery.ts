@@ -23,5 +23,5 @@ const ele = document.getElementById("app");
 groceryList.forEach(e => {
     const p = document.createElement('p');
     p.textContent = 'Item: ${e.name}, Quantity: ${e.quantity}, Price per unit: $${e.price}';
-    ele?.appendChild(p);
-})
+    ele.appendChild(p);
+});
